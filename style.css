@@ -1,19 +1,45 @@
-body{
-color:white;
-background:black;.eater-regular 
-
-  font-family: "Eater", serif;
-  font-weight: 400;
-  font-style: normal;
+body {
+color: white;
+background-color: black;
+font-family: "Faculty Glyphic", serif;
 }
 
-}
-
-.chamada{
-    background:rgb(23, 6, 92);
-    padding-bottom: 80px;
+.chamada {
+background: rgb(214, 123, 232);
+padding-bottom: 80px;
 padding-top: 80px;
 display: flex;
 justify-content: center;
+}
 
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+div {
+margin-right: 20px;
+}
+
+.chamada-texto {
+margin-right: 5%;
+margin-left: 5%;
+}
+
+img {
+height: 200px;
+}
+
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 10px;
+}
+
+h1 {
+font-size: 30px;
+}
+
+p {
+font-size: 20px;
 }
